@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const ServicesContainer = styled.div`
   height: 800px;
-  dispaly: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;

@@ -5,6 +5,7 @@ import {
   CloseIcon,
   SidebarWrapper,
   SidebarMenu,
+  SidebarLinkA,
   SidebarLink,
   SideBtnWrap,
   SidebarRoute,
@@ -18,15 +19,15 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
+          <SidebarLinkA to="/about" onClick={toggle}>
             About
-          </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
+          </SidebarLinkA>
+          {/* <SidebarLink to="discover" onClick={toggle}>
             Discover
           </SidebarLink>
           <SidebarLink to="services" onClick={toggle}>
             Services
-          </SidebarLink>
+          </SidebarLink> */}
           <SidebarLink to="signup" onClick={toggle}>
             Sign Up
           </SidebarLink>

@@ -10,7 +10,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from "./HeroElements"
-import Video from "../../videos/video.mp4"
+import Video from "../../videos/video.m4v"
 import { Button } from "../ButtonElement"
 
 const HeroSection = () => {
@@ -25,10 +25,10 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4"></VideoBg>
       </HeroBg>
       <HeroContent>
-        <HeroH1>Earn through DeFi Yield Farming</HeroH1>
+        <HeroH1>Watch your Money Grow</HeroH1>
         <HeroP>
-          Sign Up for a new account today and receive Ksh 1200 in credit towards
-          your next payment.
+          Bitmine helps you maximize your returns at best rates. Create your
+          account today and lets invest
         </HeroP>
         <HeroBtnWrapper>
           <Button

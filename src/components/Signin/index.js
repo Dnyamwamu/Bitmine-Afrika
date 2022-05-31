@@ -17,7 +17,17 @@ const SignIn = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">bitmine Afrika</Icon>
+          <Icon to="/">
+            Bitmine{" "}
+            <span
+              style={{
+                color: "#000",
+                fontWeight: "400",
+              }}
+            >
+              Afrika
+            </span>
+          </Icon>
           <FormContent>
             <Form action="#">
               <FormH1>Sign in to Bitmine</FormH1>

@@ -14,7 +14,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="services">
+    <ServicesContainer id="services" to="/termsofservice">
       <ServicesH1>Note Better</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
@@ -23,7 +23,7 @@ const Services = () => {
           <ServicesP>
             For every person you invite you will be awarded 5% of invested
             amount and it shall be added to your principle investment to attract
-            interest.
+            interest....
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -31,7 +31,7 @@ const Services = () => {
           <ServicesH2>Terms and Conditions</ServicesH2>
           <ServicesP>
             Read through and agree to abide by the terms of service in order to
-            use the offered service
+            use the offered service....
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -39,8 +39,8 @@ const Services = () => {
           <ServicesH2>Disclaimer </ServicesH2>
           <ServicesP>
             {" "}
-            "The investments and services offered by us may not be suitable for
-            all investors."
+            The investments and services offered by us may not be suitable for
+            all investors...
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

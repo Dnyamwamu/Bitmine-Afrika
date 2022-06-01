@@ -58,6 +58,19 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLink
+                  to="/"
+                  onClick={toggleHome}
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Home
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
                   to="/about"
                   smooth={true}
                   duration={500}
@@ -65,33 +78,8 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  About Us
                 </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="discover"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  What we do
-                </NavLinks>
-              </NavItem>
-
-              <NavItem>
-                <NavLinks
-                  to="info"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Info
-                </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
@@ -113,7 +101,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Sign Up
+                + Create Account
               </NavBtnLink>
             </NavBtn>
           </NavbarContainer>

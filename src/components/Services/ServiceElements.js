@@ -52,6 +52,7 @@ export const ServicesCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    background-color: #00b0ff;
   }
 `
 
@@ -74,6 +75,15 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h1`
   font-size: 1rem;
   margin-bottom: 10px;
+  color: #000;
+  font-weight: 600;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: #fff;
+  }
 `
 
 export const ServicesP = styled.p`

@@ -42,9 +42,8 @@ const Footer = () => {
               >
                 About us
               </FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Invest with us</FooterLink>
+              <FooterLink to="/signin">Disclaimer</FooterLink>
+
               <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -56,10 +55,8 @@ const Footer = () => {
               >
                 Contact us
               </FooterLinkTitle>
-              <FooterLink to="/signin">Contact</FooterLink>
-              <FooterLink to="/signin">Support</FooterLink>
-              <FooterLink to="/signin">Help</FooterLink>
-              <FooterLink to="/signin">Disclaimer</FooterLink>
+              <FooterLink to="/signin">info@bitmineafrika.com</FooterLink>
+              <FooterLink to="/signin">+254 756 939508</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
 
@@ -71,11 +68,9 @@ const Footer = () => {
                   fontWeight: "bold",
                 }}
               >
-                Videos
+                More
               </FooterLinkTitle>
-              <FooterLink to="/signin">Samples</FooterLink>
-              <FooterLink to="/signin">Withdraw</FooterLink>
-              <FooterLink to="/signin">Deposit</FooterLink>
+              <FooterLink to="/signin">Referral Program</FooterLink>
               <FooterLink to="/signin">FAQ</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
@@ -95,7 +90,8 @@ const Footer = () => {
               </span>
             </SocialLogo>
             <WebsiteRights>
-              bitmineafrika ©{new Date().getFullYear()}. All rights reserved.
+              Copyright ©{new Date().getFullYear()}. bitmineafrika.com. All
+              rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink

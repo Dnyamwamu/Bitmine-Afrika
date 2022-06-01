@@ -3,20 +3,19 @@ import { Button } from "../ButtonElement"
 import {
   InfoContainer,
   InfoWrapper,
-  InfoRow2,
+  InfoRow,
   Column1,
   Column2,
-  Column3,
   TextWrapper,
   TopLine,
-  Heading2,
+  Heading,
   Subtitle,
   BtnWrap,
   ImgWrap,
   Img,
 } from "./InfoElements"
 
-const InfoSection = ({
+const Disclaimer = ({
   id,
   lightBg,
   imgStart,
@@ -25,6 +24,7 @@ const InfoSection = ({
   darkText,
   headline,
   description,
+  description1,
   buttonLabel,
   img,
   alt,
@@ -36,12 +36,28 @@ const InfoSection = ({
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow2 imgStart={imgStart}>
+          <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topline}</TopLine>
-                <Heading2 lightText={lightText}>{headline}</Heading2>
+                <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{description1}</Subtitle>
+                <BtnWrap>
+                  <Button
+                    to="/"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    primary={primary ? 1 : 0}
+                    dark={dark ? 1 : 0}
+                    dark2={dark ? 1 : 0}
+                  >
+                    {buttonLabel}
+                  </Button>
+                </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
@@ -49,14 +65,11 @@ const InfoSection = ({
                 <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
-            <Column3>
-              <Subtitle darkText={darkText}>{description}</Subtitle>
-            </Column3>
-          </InfoRow2>
+          </InfoRow>
         </InfoWrapper>
       </InfoContainer>
     </>
   )
 }
 
-export default InfoSection
+export default Disclaimer

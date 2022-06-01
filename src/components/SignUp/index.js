@@ -13,7 +13,7 @@ import {
   Text,
 } from "./SigninElements"
 
-const SignIn = () => {
+const SignUp = () => {
   return (
     <>
       <Container>
@@ -29,19 +29,34 @@ const SignIn = () => {
               Afrika
             </span>
           </Icon>
+
           <FormContent>
             <div className="container mx-auto px-4 h-full">
               <div className="flex content-center items-center justify-center h-full">
                 <div className="w-full lg:w-4/12 px-4">
                   <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg  border-0">
                     <div className="text-white mt-4 text-center font-bold">
-                      <small>Sign in to Access your Dashboard</small>
+                      <small>Sign up </small>
                     </div>
                     <div className="rounded-t mb-0 px-6 py-6">
                       <hr className=" border-b-1 border-blueGray-300" />
                     </div>
                     <div className="flex-auto px-4 lg:px-10 py-10 pt-0">
                       <form>
+                        <div className="relative w-full mb-3">
+                          <label
+                            className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            htmlFor="grid-password"
+                          >
+                            Names
+                          </label>
+                          <input
+                            type="text"
+                            className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            placeholder="Names"
+                          />
+                        </div>
+
                         <div className="relative w-full mb-3">
                           <label
                             className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -122,4 +137,4 @@ const SignIn = () => {
   )
 }
 
-export default SignIn
+export default SignUp

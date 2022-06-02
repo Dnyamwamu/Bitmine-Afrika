@@ -31,7 +31,7 @@ export const homeObjTwo = {
     "Crypto is the key to financial freedom it provides great opportunities for traders to build up long and short positions frequently, we provide safeguards for our clients in times of uncertainty in the market. Currently we only hold Bitcoin and Ethereum but we trade in all existing cryptocurrencies. We highly encourage our clients to invest in our platform using stable coins to reduce their transaction cost and for lightning speed transactions.",
   buttonLabel: "Learn More",
   imgStart: true,
-  img: require("../../images/svg-2.svg").default,
+  img: require("../../images/svg-1.svg").default,
   alt: "BitCoin",
   dark: false,
   primary: false,
@@ -39,7 +39,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-  id: "Defi",
+  id: "DeFi",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -57,7 +57,7 @@ export const homeObjThree = {
 }
 
 export const homeObjFour = {
-  id: "invest",
+  id: "invest1",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -68,7 +68,7 @@ export const homeObjFour = {
     "We can guarantee 2-7% interest on your investment paid daily for 28 days. Minimum deposit is Usd 20 or token equivalent (usdt). Minimum withdrawal is Usd 30 or token equivalent (usdt). You can with draw at any time as long as you have met the minimum requirement. PLEASE NOTE THAT OUR INVESTMENT IS NON COMPOUNDING (simple interest) paid out daily. ",
   buttonLabel: "Get Started",
   imgStart: false,
-  img: require("../../images/svg-3.svg").default,
+  img: require("../../images/svg-2.svg").default,
   alt: "Invest with Us",
   dark: true,
   primary: true,
@@ -76,22 +76,22 @@ export const homeObjFour = {
 }
 
 export const homeObjFive = {
-  id: "Howto",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topline: "How to Invest",
+  id: "invest",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topline: "Invest With Us",
   headline:
     "We can guarantee 2-7% interest on your investment paid daily for 28 days.",
   description:
     "Our system helps our clients mine Bitcoin and Ethereum then diversify the said coins into regulated (SEC, ASIC, FCA & CySEC) platforms, DeFi DeFi yield farms that have a good APR(annual percentage rate) that in turn gives us a very high APY ( annual percentage yield).",
   buttonLabel: "Get Started",
   imgStart: false,
-  img: require("../../images/svg-3.svg").default,
+  img: require("../../images/svg-2.svg").default,
   alt: "BitCoin",
   dark: true,
   primary: true,
-  darkText: false,
+  darkText: true,
 }
 
 export const howToInvest = [
@@ -147,7 +147,7 @@ export const howToInvest = [
 ]
 
 export const Disclaimer1 = {
-  id: "Howto",
+  id: "disclaimer",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -161,6 +161,25 @@ export const Disclaimer1 = {
   imgStart: false,
   img: require("../../images/disclaimer1.svg").default,
   alt: "BitCoin",
+  dark: true,
+  primary: true,
+  darkText: false,
+}
+
+export const ReferralObj = {
+  id: "referral",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topline: "Get More",
+  headline: "Referral Program",
+  description:
+    "For every person you invite you will be awarded 5% of invested amount and it shall be added to your principle investment to attract interest. Please note that the amount will be subject to the same 28 day contract period and it shall not be carried forward to the next month. The reward shall only be redeemable to active account holders only, if you have not invested in the platform all your referral amount will lay dormant until you invest the minimum amount usd20 or token equivalent (usdt).",
+
+  buttonLabel: "Back Home",
+  imgStart: false,
+  img: require("../../images/hello.svg").default,
+  alt: "Referrals",
   dark: true,
   primary: true,
   darkText: false,

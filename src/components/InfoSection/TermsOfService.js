@@ -3,7 +3,7 @@ import { TermsOfService1 } from "./Data1"
 import {
   InfoContainer,
   InfoWrapper,
-  InfoRow1,
+  InfoRow,
   Column4,
   TextWrapper,
   TopLine1,
@@ -24,7 +24,10 @@ const TermsOfService = ({
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow1 imgStart={imgStart}>
+          <InfoRow imgStart={imgStart}>
+            <h1 style={{ color: "#00b0ff", fontSize: "24px" }}>
+              Terms of Service
+            </h1>
             <TextWrapper>
               <TopLine1>{topline}</TopLine1>
               {TermsOfService1.map((item) => {
@@ -35,7 +38,7 @@ const TermsOfService = ({
                 )
               })}
             </TextWrapper>
-          </InfoRow1>
+          </InfoRow>
         </InfoWrapper>
       </InfoContainer>
     </>

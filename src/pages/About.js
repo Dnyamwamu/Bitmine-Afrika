@@ -32,10 +32,10 @@ const About = () => {
       {/* <HeroSection /> */}
 
       <AboutUsSection {...homeObjOne} />
-      <HowToInvest {...homeObjFive} />
+      <HowToInvest />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjFour} />
+      <InfoSection {...homeObjFive} />
 
       <Footer />
     </>

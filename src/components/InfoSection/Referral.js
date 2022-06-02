@@ -15,7 +15,7 @@ import {
   Img,
 } from "./InfoElements"
 
-const Disclaimer = ({
+const Referral = ({
   id,
   lightBg,
   imgStart,
@@ -72,4 +72,4 @@ const Disclaimer = ({
   )
 }
 
-export default Disclaimer
+export default Referral

@@ -26,6 +26,11 @@ const HowToInvest = ({
         <InfoWrapper>
           <InfoRow1>
             <TextWrapper2>
+              <h1
+                style={{ color: "#fff", fontSize: "28px", fontWeight: "bold" }}
+              >
+                How To Invest
+              </h1>
               <TopLine1 style={{ color: "#fff" }}>{topline}</TopLine1>
               {howToInvest.map((item) => {
                 return (

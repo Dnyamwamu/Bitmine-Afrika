@@ -14,10 +14,10 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="services" to="/termsofservice">
+    <ServicesContainer>
       <ServicesH1>Note Better</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard>
+        <ServicesCard to="/referral">
           <ServicesIcon src={Icon1} />
           <ServicesH2>Referral Program</ServicesH2>
           <ServicesP>
@@ -26,7 +26,7 @@ const Services = () => {
             interest....
           </ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard to="/termsofservice">
           <ServicesIcon src={Icon2} />
           <ServicesH2>Terms and Conditions</ServicesH2>
           <ServicesP>
@@ -34,7 +34,7 @@ const Services = () => {
             use the offered service....
           </ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard to="/disclaimer">
           <ServicesIcon src={Icon3} />
           <ServicesH2>Disclaimer </ServicesH2>
           <ServicesP>

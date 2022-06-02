@@ -69,20 +69,31 @@ const AboutNavbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="invest"
+                  to="howto"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Invest
+                  How To Invest
                 </NavLinks>
               </NavItem>
-
               <NavItem>
                 <NavLinks
-                  to="defi"
+                  to="crypto"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Crypto
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="DeFi"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -92,29 +103,16 @@ const AboutNavbar = ({ toggle }) => {
                   DeFi-yield
                 </NavLinks>
               </NavItem>
-
               <NavItem>
                 <NavLinks
-                  to="discover"
+                  to="invest"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Referrals
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="disclaimer"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Disclaimer
+                  Invest with us
                 </NavLinks>
               </NavItem>
             </NavMenu>

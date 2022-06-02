@@ -42,9 +42,9 @@ const Footer = () => {
               >
                 About us
               </FooterLinkTitle>
-              <FooterLink to="/signin">Disclaimer</FooterLink>
+              <FooterLink to="/disclaimer">Disclaimer</FooterLink>
 
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLink to="/termsofservice">Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle
@@ -55,8 +55,8 @@ const Footer = () => {
               >
                 Contact us
               </FooterLinkTitle>
-              <FooterLink to="/signin">info@bitmineafrika.com</FooterLink>
-              <FooterLink to="/signin">+254 756 939508</FooterLink>
+              <FooterLink to="/">info@bitmineafrika.com</FooterLink>
+              <FooterLink to="/">+254 756 939508</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
 
@@ -70,8 +70,8 @@ const Footer = () => {
               >
                 More
               </FooterLinkTitle>
-              <FooterLink to="/signin">Referral Program</FooterLink>
-              <FooterLink to="/signin">FAQ</FooterLink>
+              <FooterLink to="/referral">Referral Program</FooterLink>
+              <FooterLink to="/about">FAQ</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

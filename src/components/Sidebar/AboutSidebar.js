@@ -8,6 +8,7 @@ import {
   SidebarLink,
   SideBtnWrap,
   SidebarRoute,
+  SidebarRoute1,
 } from "./SidebarElements"
 
 const AboutSidebar = ({ isOpen, toggle }) => {
@@ -19,20 +20,26 @@ const AboutSidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="about" onClick={toggle}>
-            About
+            About Us
           </SidebarLink>
           <SidebarLink to="discover" onClick={toggle}>
-            Discover
+            How to Invest
           </SidebarLink>
           <SidebarLink to="services" onClick={toggle}>
-            Services
+            Crypto
           </SidebarLink>
           <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
+            DeFI-Yield
+          </SidebarLink>
+          <SidebarLink to="signup" onClick={toggle}>
+            Invest With Us
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute1 to="/signin">Sign In</SidebarRoute1>
+        </SideBtnWrap>
+        <SideBtnWrap>
+          <SidebarRoute to="/signup">Create An Account</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

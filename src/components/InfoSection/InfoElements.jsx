@@ -21,13 +21,17 @@ export const InfoContainer1 = styled.div`
 export const InfoWrapper = styled.div`
   display: flex;
   z-index: 1;
-  height: 700px;
+  height: 600px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    height: 1000px;
+  } ;
 `
 
 export const InfoWrapper1 = styled.div`

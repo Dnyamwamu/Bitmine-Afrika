@@ -28,9 +28,11 @@ export const homeObjTwo = {
   topline: "Bitcoin and Ethereum",
   headline: "Crypto",
   description:
-    "Crypto is the key to financial freedom it provides great opportunities for traders to build up long and short positions frequently, we provide safeguards for our clients in times of uncertainty in the market. Currently we only hold Bitcoin and Ethereum but we trade in all existing cryptocurrencies. We highly encourage our clients to invest in our platform using stable coins to reduce their transaction cost and for lightning speed transactions.",
+    "Crypto is the key to financial freedom it provides great opportunities for traders to build up long and short positions frequently, we provide safeguards for our clients in times of uncertainty in the market.",
+  description1:
+    "Currently we only hold Bitcoin and Ethereum but we trade in all existing cryptocurrencies. We highly encourage our clients to invest in our platform using stable coins to reduce their transaction cost and for lightning speed transactions.",
   buttonLabel: "Learn More",
-  imgStart: true,
+  imgStart: false,
   img: require("../../images/svg-1.svg").default,
   alt: "BitCoin",
   dark: false,
@@ -47,6 +49,8 @@ export const homeObjThree = {
   headline: "DeFi- yield Farm investments.",
   description:
     "Earn interest rates up to 30%  a month.  Contract periods of 28 days. Fully decentralized platform.  Withdraw once the minimum requirement is met- Usd 30 or token equivalent (usdt). Use of platforms only regulated by the SEC, ASIC, FCA, and CySEC. Equates to cash equivalent.",
+  description1:
+    "Use of platforms only regulated by the SEC, ASIC, FCA, and CySEC. Equates to cash equivalent.",
   buttonLabel: "Get Started",
   imgStart: false,
   img: require("../../images/svg-3.svg").default,
@@ -57,26 +61,27 @@ export const homeObjThree = {
 }
 
 export const homeObjFour = {
-  id: "invest1",
+  id: "invest",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
   topline: "Invest with Us",
-  headline:
-    "We can guarantee 2-7% interest on your investment paid daily for 28 days.",
+  headline: "2-7% interest on your investment paid daily for 28 days.",
   description:
-    "We can guarantee 2-7% interest on your investment paid daily for 28 days. Minimum deposit is Usd 20 or token equivalent (usdt). Minimum withdrawal is Usd 30 or token equivalent (usdt). You can with draw at any time as long as you have met the minimum requirement. PLEASE NOTE THAT OUR INVESTMENT IS NON COMPOUNDING (simple interest) paid out daily. ",
+    "We can guarantee 2-7% interest on your investment paid daily for 28 days. Minimum deposit is Usd 20 or token equivalent (usdt). Minimum withdrawal is Usd 30 or token equivalent (usdt). ",
+  description1:
+    "You can with draw at any time as long as you have met the minimum requirement. PLEASE NOTE THAT OUR INVESTMENT IS NON COMPOUNDING (simple interest) paid out daily. ",
   buttonLabel: "Get Started",
   imgStart: false,
   img: require("../../images/svg-2.svg").default,
   alt: "Invest with Us",
   dark: true,
   primary: true,
-  darkText: false,
+  darkText: true,
 }
 
 export const homeObjFive = {
-  id: "invest",
+  id: "invest1",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,

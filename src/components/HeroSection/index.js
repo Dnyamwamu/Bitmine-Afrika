@@ -6,6 +6,7 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
+  HeroP1,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
@@ -25,11 +26,9 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4"></VideoBg>
       </HeroBg>
       <HeroContent>
-        <HeroH1>Watch your Money Grow</HeroH1>
-        <HeroP>
-          Bitmine helps you maximize your returns at best rates. Create your
-          account today and lets invest
-        </HeroP>
+        <HeroH1>Beyond Expectations</HeroH1>
+        <HeroP>" - Maximize your returns - ".</HeroP>
+        <HeroP1>Create your account today and lets invest</HeroP1>
         <HeroBtnWrapper>
           <Button
             to="/signup"

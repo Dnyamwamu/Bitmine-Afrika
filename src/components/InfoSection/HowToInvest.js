@@ -2,7 +2,7 @@ import React from "react"
 import { howToInvest } from "./Data1"
 import {
   InfoContainer1,
-  InfoWrapper,
+  InfoWrapper3,
   InfoRow1,
   Column4,
   TextWrapper2,
@@ -23,7 +23,7 @@ const HowToInvest = ({
   return (
     <>
       <InfoContainer1 id={id} style={{ backgroundColor: "#00b0ff" }}>
-        <InfoWrapper>
+        <InfoWrapper3>
           <InfoRow1>
             <TextWrapper2>
               <h1
@@ -41,7 +41,7 @@ const HowToInvest = ({
               })}
             </TextWrapper2>
           </InfoRow1>
-        </InfoWrapper>
+        </InfoWrapper3>
       </InfoContainer1>
     </>
   )

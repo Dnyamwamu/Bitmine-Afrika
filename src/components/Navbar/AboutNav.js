@@ -46,6 +46,7 @@ const AboutNavbar = ({ toggle }) => {
                   color: "#00b0ff",
                   // fontStyle: "oblique",
                   fontWeight: "400",
+                  fontSize: "1.8rem",
                 }}
               >
                 Afrika

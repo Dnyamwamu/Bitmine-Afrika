@@ -7,6 +7,7 @@ import SignUpPage from "./pages/SignUp"
 import DisclaimerPage from "./pages/DisclaimerPage"
 import TermsOfServicePage from "./pages/TermsOfServicePage"
 import ReferralPage from "./pages/ReferralPage"
+import Dashboard from "./components/Dashboard"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/disclaimer" element={<DisclaimerPage />} />
         <Route path="/referral" element={<ReferralPage />} />
         <Route path="/termsofservice" element={<TermsOfServicePage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   )

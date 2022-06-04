@@ -25,6 +25,7 @@ const InfoSection = ({
   darkText,
   headline,
   description,
+  description1,
   buttonLabel,
   img,
   alt,
@@ -50,7 +51,7 @@ const InfoSection = ({
               </ImgWrap>
             </Column2>
             <Column3>
-              <Subtitle darkText={darkText}>{description}</Subtitle>
+              <Subtitle darkText={darkText}>{description1}</Subtitle>
             </Column3>
           </InfoRow2>
         </InfoWrapper>

@@ -96,7 +96,7 @@ const SignIn = () => {
                   <div className="flex flex-wrap mt-6 relative">
                     <div className="w-1/2">
                       <a
-                        href="#pablo"
+                        href="#bitmineafrica"
                         onClick={(e) => e.preventDefault()}
                         className="text-black font-semibold"
                       >
@@ -104,10 +104,7 @@ const SignIn = () => {
                       </a>
                     </div>
                     <div className="w-1/2 text-right">
-                      <Link
-                        to="/auth/register"
-                        className="text-black font-bold"
-                      >
+                      <Link to="/signup" className="text-black font-bold">
                         <small>Create new account</small>
                       </Link>
                     </div>

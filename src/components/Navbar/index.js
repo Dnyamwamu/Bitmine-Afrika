@@ -42,15 +42,15 @@ const Navbar = ({ toggle }) => {
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
               Bitmine{" "}
-              <span
+              <h1
                 style={{
                   color: "#00b0ff",
-                  // fontStyle: "oblique",
                   fontWeight: "400",
+                  fontSize: "1.8rem",
                 }}
               >
                 Afrika
-              </span>
+              </h1>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

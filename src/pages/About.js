@@ -35,7 +35,7 @@ const About = () => {
       <HowToInvest />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjFive} />
+      <InfoSection {...homeObjFour} />
 
       <Footer />
     </>

@@ -32,9 +32,10 @@ const HowToInvest = ({
                 How To Invest
               </h1>
               <TopLine1 style={{ color: "#fff" }}>{topline}</TopLine1>
-              {howToInvest.map((item) => {
+              {howToInvest.map((item, index) => {
                 return (
-                  <div key={item.id}>
+                  <div key={item.id} className="flex">
+                    <p className="pr-2">{index + 1}.</p>
                     <p style={{ color: "#000" }}>{item.guide}</p>
                   </div>
                 )

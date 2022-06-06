@@ -15,7 +15,7 @@ import {
 const Services = () => {
   return (
     <ServicesContainer>
-      <ServicesH1>Note Better</ServicesH1>
+      <ServicesH1>Terms of Use</ServicesH1>
       <ServicesWrapper>
         <ServicesCard to="/referral">
           <ServicesIcon src={Icon1} />

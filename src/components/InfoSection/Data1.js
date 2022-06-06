@@ -103,47 +103,47 @@ export const howToInvest = [
   {
     id: 1,
     guide:
-      "1.	You need to have a crypto wallet (binance, Coin base, kraken, polygon meta mask etc).",
+      "You need to have a crypto wallet (binance, Coin base, kraken, polygon meta mask etc).",
   },
   {
     id: 2,
     guide:
-      "2.	Generate a wallet address for usdt to receive usdt from our platform.",
+      "Generate a wallet address for usdt to receive usdt from our platform.",
   },
   {
     id: 3,
     guide:
-      "3.	Copy paste you wallet id to our platform when you are signing up. Remember this is the address the platform will use to settle all payments due.",
+      "Copy paste you wallet id to our platform when you are signing up. Remember this is the address the platform will use to settle all payments due.",
   },
   {
     id: 4,
     guide:
-      "4.	Once your account is set up(including wallet id), head to the deposit area to copy paste or scan the platform USDT wallet ID to deposit the desired investment amount (please note minimum investment is 20usdt)",
+      "Once your account is set up(including wallet id), head to the deposit area to copy paste or scan the platform USDT wallet ID to deposit the desired investment amount (please note minimum investment is 20usdt)",
   },
   {
     id: 5,
     guide:
-      "5.	Indicate the amount you wish to deposit the copy paste the Wallet ID, Once this is done head to your wallet (binance,coinbase etc) and withdraw/send the desired amount to the platform Usdt wallet address. Please confirm the Wallet ID don’t miss a single number/letter. ",
+      "Indicate the amount you wish to deposit the copy paste the Wallet ID, Once this is done head to your wallet (binance,coinbase etc) and withdraw/send the desired amount to the platform Usdt wallet address. Please confirm the Wallet ID don’t miss a single number/letter. ",
   },
   {
     id: 6,
     guide:
-      "6.	After sending the desired amount head back to the platform and confirm payment. The confirmation will depend on the network but it shouldn’t take more that 2hrs once verified. If the amount is not confirmed in the platform please share the transaction receipt ONLY.",
+      "After sending the desired amount head back to the platform and confirm payment. The confirmation will depend on the network but it shouldn’t take more that 2hrs once verified. If the amount is not confirmed in the platform please share the transaction receipt ONLY.",
   },
   {
     id: 7,
     guide:
-      "7.	Once the funds have been verified by the platform they will automatically be added to your latest balance then you can invest.",
+      "Once the funds have been verified by the platform they will automatically be added to your latest balance then you can invest.",
   },
   {
     id: 8,
     guide:
-      "8.	Once the 28 days are up you can opt to re-invest the funds or withdraw.",
+      "Once the 28 days are up you can opt to re-invest the funds or withdraw.",
   },
   {
     id: 9,
     guide:
-      "9.	To withdraw the funds please go to the transaction area and select withdraw, request your desired amount (minimum 30usdt). The funds shall be sent to your wallet(coin base, kraken, binance, polygon etc) and will be available within 2hrs depending on the network.",
+      "To withdraw the funds please go to the transaction area and select withdraw, request your desired amount (minimum 30usdt). The funds shall be sent to your wallet(coin base, kraken, binance, polygon etc) and will be available within 2hrs depending on the network.",
   },
   {
     id: 10,

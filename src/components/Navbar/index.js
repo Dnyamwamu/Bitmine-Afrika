@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { FaBars } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
+import { GiAfrica } from "react-icons/gi"
 import { animateScroll as scroll } from "react-scroll"
 import {
   Nav,
@@ -41,6 +42,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
+              <GiAfrica style={{ fontSize: "2.2rem" }} />
               Bitmine{" "}
               <h1
                 style={{
@@ -53,7 +55,7 @@ const Navbar = ({ toggle }) => {
               </h1>
             </NavLogo>
             <MobileIcon onClick={toggle}>
-              <FaBars />
+              <FaBars style={{ fontSize: "1.8rem" }} />
             </MobileIcon>
             <NavMenu>
               <NavItem>

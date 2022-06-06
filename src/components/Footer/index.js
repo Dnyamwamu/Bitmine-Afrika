@@ -1,5 +1,6 @@
 import React from "react"
 import { animateScroll as scroll } from "react-scroll"
+import { GiAfrica } from "react-icons/gi"
 import {
   FaFacebook,
   FaInstagram,
@@ -21,6 +22,8 @@ import {
   SocialIcons,
   WebsiteRights,
   SocialMediaWrap,
+  FooterBtnLink,
+  FooterBtn,
 } from "./FooterElements"
 
 const Footer = () => {
@@ -43,7 +46,7 @@ const Footer = () => {
                 About us
               </FooterLinkTitle>
               <FooterLink to="/disclaimer">Disclaimer</FooterLink>
-
+              <FooterLink to="/referral">Referral Program</FooterLink>
               <FooterLink to="/termsofservice">Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -57,6 +60,7 @@ const Footer = () => {
               </FooterLinkTitle>
               <FooterLink to="/">info@bitmineafrika.com</FooterLink>
               <FooterLink to="/">+254 756 939508</FooterLink>
+              <FooterLink to="/about">FAQ</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
 
@@ -68,21 +72,69 @@ const Footer = () => {
                   fontWeight: "bold",
                 }}
               >
-                More
+                Get in Touch
               </FooterLinkTitle>
-              <FooterLink to="/referral">Referral Program</FooterLink>
-              <FooterLink to="/about">FAQ</FooterLink>
+              <form>
+                <div className="flex">
+                  <div className="relative w-full mb-3 mr-4 ">
+                    <input
+                      type="text"
+                      className="border-0 px-3 py-3 placeholder-blueGray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 mr-4"
+                      placeholder="Name"
+                    />
+                  </div>
+
+                  <div className="relative mb-3 ">
+                    <input
+                      type="email"
+                      className="border-0 px-3 py-3 placeholder-blueGray-300 text-black bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 "
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+
+                <div className="relative mb-3">
+                  <textarea
+                    type="text"
+                    className="border-0 px-3 py-3 placeholder-blueGray-600 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 mr-4"
+                    placeholder="Message"
+                  />
+                </div>
+
+                <div>
+                  <label className="inline-flex items-center cursor-pointer">
+                    <input
+                      id="customCheckLogin"
+                      type="checkbox"
+                      className="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+                    />
+                    <span className="ml-2 text-sm font-semibold text-blueGray-600">
+                      Subscribe for Newsletter
+                    </span>
+                  </label>
+                </div>
+
+                <div className="text-center mt-6">
+                  <button
+                    className="bg-black text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                    type="button"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome()}>
+              <GiAfrica style={{ fontSize: "1.8rem" }} />
               Bitmine{" "}
               <span
                 style={{
                   color: "#000",
-                  // fontStyle: "oblique",
+                  fontSize: "16px",
                   fontWeight: "400",
                 }}
               >

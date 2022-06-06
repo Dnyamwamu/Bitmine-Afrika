@@ -38,11 +38,11 @@ export const FooterLinkItems = styled.div`
   align-items: flex-start;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  width: 260px;
   box-sizing: border-box;
   color: #fff;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 820px) {
     margin: 0;
     padding: 10px;
     width: 100%;
@@ -111,3 +111,4 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `
+

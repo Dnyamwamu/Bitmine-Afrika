@@ -127,20 +127,6 @@ const SignUp = () => {
                           </div>
                         </div>
 
-                        <div className="relative w-full mb-3">
-                          <label
-                            className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                            htmlFor="grid-password"
-                          >
-                            PIN
-                          </label>
-                          <input
-                            type="password"
-                            className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                            placeholder="PIN : 1234"
-                          />
-                        </div>
-
                         <div className="text-center mt-6">
                           <Link to="/dashboard">
                             <button
@@ -155,7 +141,7 @@ const SignUp = () => {
                     </div>
                     <div className="text-right p-2 flex-end mr-2 mb-2">
                       <Link to="/signin" className="text-black font-bold">
-                        <small>Sign In Instead</small>
+                        <small>Already with an Account? Sign In</small>
                       </Link>
                     </div>
                   </div>
